@@ -78,11 +78,4 @@ python main.py
 
 ## 引用说明
 
-如果您在研究或项目中使用本代码，请引用：
-
-@software{fuzzy_mpc_highway,
-title = {Fuzzy-MPC Highway Autonomous Driving Control System},
-author = {Amine},
-year = {2024},
-url = {[项目仓库地址]}
-}
+如果您在研究或项目中使用本代码，请注明来源
