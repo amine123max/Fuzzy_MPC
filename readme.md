@@ -12,25 +12,6 @@
 -  **实时安全监控** - 多障碍物检测和碰撞避免
 -  **性能可视化** - 完整的仿真数据记录和分析
 
-## 系统架构
-
-fuzzy_mpc/
-├── config/ # 配置参数模块
-│ ├── mpc_config.py # MPC控制器参数
-│ ├── strategy_config.py # 策略评价参数
-│ └── simulation_config.py # 仿真环境参数
-├── controllers/ # 控制器模块
-│ ├── mpc_controller.py # MPC轨迹控制器
-│ ├── fuzzy_controller.py # 模糊逻辑控制器
-│ └── strategy_evaluator.py # 策略评价器
-├── managers/ # 管理器模块
-│ └── target_manager.py # 动态目标管理器
-├── utils/ # 工具函数模块
-│ ├── math_utils.py # 数学计算工具
-│ └── visualization.py # 数据可视化工具
-├── highway_env_mpc/ # 高速公路环境
-├── main.py # 主程序入口
-└── transformer.py # 视频生成工具
 
 ## 核心算法
 
@@ -79,3 +60,4 @@ python main.py
 ## 引用说明
 
 如果您在研究或项目中使用本代码，请注明来源
+
